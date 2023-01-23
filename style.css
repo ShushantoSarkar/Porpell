@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 56px 80px 104px 48px 64px 1fr 74px;
+
+  font-family: "League Spartan";
+  font-style: normal;
+
+  max-width: 450px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.button {
+  border-radius: 150px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.welcome {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 56px;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #36383f;
+}
+
+.name span {
+  color: #8181a5;
+}
+
+.notification {
+  justify-self: end;
+}
+
+.notification i {
+  color: #5516aa;
+  font-size: large;
+}
+
+.portfolio {
+  margin: 0px 16px;
+
+  background-image: url("portfolio_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: fit-content;
+
+  padding: 13px;
+  border-radius: 8px;
+  padding-top: 16px;
+  padding-bottom: 20px;
+}
+
+.portfolio_body {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #696d7c;
+}
+
+.portfolio_number {
+  color: #41c0d2;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.loan {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #ffffff;
+  border: 1.5px solid #e9dcfa;
+  border-radius: 8px;
+  align-items: center;
+
+  margin: 12px 17px 16px 17px;
+
+  padding: 16px 15px;
+}
+
+.learn_more {
+  padding: 8px 12px;
+  width: fit-content;
+  justify-self: end;
+  margin-right: 15px;
+
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+
+  background: #e7f7f9;
+  opacity: 0.8;
+  border-radius: 150px;
+}
+
+.learn_more a {
+  color: #41c0d2;
+}
+
+.loan_text_line1 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #696d7c;
+}
+
+.loan_text_line2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+
+  color: #5516aa;
+}
+
+.limit {
+  margin: auto 16px;
+  text-align: center;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+
+  background: #5516aa;
+  border-radius: 150px;
+}
+
+.limit_button {
+  padding: 16px 97px;
+}
+
+.limit_button a {
+  color: #ffffff;
+}
+
+.funds {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  align-items: center;
+  margin: 16px;
+}
+
+.funds_button {
+  justify-self: end;
+
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 8px 12px;
+
+  background: #fde9ea;
+  opacity: 0.8;
+  border-radius: 150px;
+}
+
+.funds_button a {
+  color: #ef4f53;
+}
+
+.funds_text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #8181a5;
+}
+
+.data {
+  padding: 0 16px;
+}
+
+.card_body {
+  margin-bottom: 12px;
+  padding: 9px 13px;
+  background: #ffffff;
+  border: 1.5px solid #e9dcfa;
+  border-radius: 8px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 24px 24px;
+  column-gap: 37px;
+}
+
+.card_name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #1c1d21;
+
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.card_text {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 24px;
+  color: #8181a5;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card_body span {
+  justify-self: end;
+}
+
+.card_value span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  color: #41c0d2;
+}
+
+.card_unit span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  color: #1c1d21;
+}
+
+.card_number span,
+.card_nav span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  color: #5516aa;
+}
+
+.nav {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 450px;
+
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left: -225px;
+  padding: 16px 0;
+
+  background: #ffffff;
+  box-shadow: 0px -4px 24px rgba(85, 22, 170, 0.1);
+}
+
+.nav a {
+  font-weight: 400;
+  line-height: 16px;
+  color: #898989;
+}
+
+.nav i {
+  margin-bottom: 6px;
+}
+
+.nav div + div {
+  margin-left: 64px;
+}
+
+.nav_active a{
+  color: #5516aa;
+}

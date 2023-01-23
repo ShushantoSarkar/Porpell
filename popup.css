@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  font-family: "League Spartan";
+  font-style: normal;
+
+  height: max-content;
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #1c1d21;
+
+  margin: 16px;
+}
+
+.popup_img {
+  width: min-content;
+  margin: 0 auto;
+}
+
+.popup_img img {
+  max-width: 250px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 74.5%;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #8181a5;
+
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.text span {
+  color: #1c1d21;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 8px 16px 16px 16px;
+}
+
+.buttons a {
+  text-decoration: none;
+}
+
+.button1 {
+  background: #e9dcfa;
+  border-radius: 150px;
+  padding: 16px 48px;
+  text-align: center;
+  width: fit-content;
+}
+
+.button1 a {
+  color: #5516aa;
+}
+
+.button2 {
+  background: #ef4f53;
+  border-radius: 150px;
+  justify-self: end;
+  padding: 16px 48px;
+  text-align: center;
+  width: fit-content;
+}
+
+.button2 a {
+  color: #ffffff;
+}
